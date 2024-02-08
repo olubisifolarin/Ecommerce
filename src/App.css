@@ -1,0 +1,244 @@
+body{
+  background-color: black;
+}
+
+/* NAV BAR */
+.logo{
+  height: 300px;
+  width: 400px;
+  margin-top: -7rem;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-icon{
+  font-size: 4rem;
+  margin-right: 6rem;
+  margin-bottom: 3rem;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  margin-right: 10em;
+}
+
+.inputField {
+  padding: 8px;
+  margin-right: -2rem;
+  border: 2px solid;
+  border-radius: 5px;
+  width: 600px;
+  height: 50px;
+}
+
+.searchIcon {
+  font-size: 1.5rem; 
+  cursor: pointer;
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 120px;
+  left: -150%;
+  transition: 0.5s all;
+  font-size: 1rem;
+  background-color: white;
+  z-index: 2; 
+  margin: 0; 
+}
+
+.nav-links.active{ 
+  left: 0;
+}
+
+.nav-item{
+  color: black;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+
+/* HOME PAGE */
+.welcome, .aboutUs, .contactUs, .servicePage, .shopPage{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.elegantWears{
+  margin-left: 6rem;
+  margin-top: 6rem;
+}
+
+.shop-btn{
+  width: 30%;
+  border-radius: 5px;
+  border: 3px solid #AD9551;
+  height: 50px;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  color: #AD9551;
+}
+
+.shop-btn:hover{
+  background-color: #AD9551;
+  color: white;
+}
+
+.home-img{
+  margin-left: 4rem;
+}
+.gown{
+    transition: transform 0.3s ease-in-out;
+}
+.pinkBag, .boxer{
+  width: 50%;
+  height: 250px;
+  margin-left: 12rem;
+  margin-top: -3rem;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.crocs{
+  width: 30%;
+  height: 200px;
+  margin-top: 9rem;
+  margin-left: -2rem;
+  transition: transform 0.3s ease-in-out;
+}
+ 
+.boxer:hover {
+  transform: scale(1.3);
+}
+
+.crocs:hover{
+  transform: scale(1.3);
+}
+
+.pinkBag:hover {
+  transform: scale(1.3);
+}
+
+.gown:hover{
+  transform: scale(1.3);
+}
+
+/* ABOUT PAGE */
+.about-page{
+  color: white;
+  margin: 3rem;
+}
+
+.aboutUs-text{
+  margin-top: 2rem;
+  line-height: 2.3rem;
+  font-size: 1.2rem;
+}
+
+.aboutImg{
+  margin-left: 3rem;
+}
+
+/* CONTACT PAGE */
+.contact{
+  color: white;
+}
+
+label{
+ display: block;
+ padding-top: 1.5rem;
+ margin-bottom: 1rem;
+}
+
+input{
+  width: 60%;
+  padding-top: 1rem;
+  height: 50px;
+  border: 3px solid #AD9551;
+  border-radius: 5px;
+}
+
+textarea{
+  width: 60%;
+  padding-top: 1rem;
+  height: 120px;
+  border: 3px solid #AD9551; 
+  border-radius: 5px;
+}
+
+.message-btn{
+  width: 60%;
+  border-radius: 5px;
+  border: 3px solid #AD9551;
+  height: 50px;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  color: #AD9551;
+}
+
+.message-btn:hover{
+  background-color: #AD9551;
+  color: white;
+}
+
+/* SERVICES PAGE */
+.card-content{
+  background-color: white;
+  width: 20%;
+  height: 150px;
+  margin: 2rem;
+  padding-top: 3rem;
+}
+
+.card-icon{
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  
+}
+
+.title{
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+/* SHOP-NOW PAGE */
+.shopCard-content{
+  background-color: white;
+  width: 20%;
+  height: 370px;
+  margin: 2rem;
+}
+
+.shopNow-btn{
+  width: 40%;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 1.2rem;
+  background-color: #AD9551;
+}
+
+.addCart-btn{
+  width: 40%;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 1.2rem;
+  background-color: #AD9551;
+  margin-left: 2rem;
+}
+
+/* FOOTER PAGE */
+
+.footer-img{
+  height: 25px;
+}
