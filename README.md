@@ -1,3 +1,4 @@
+This is an Ecommerce project where you can order for children, male and female clothes, shoes, bags and so on.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
