@@ -1,15 +1,15 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body{
   background-color: black;
 }
 
 /* NAV BAR */
-.logo{
+/* .logo{
   height: 300px;
   width: 400px;
   margin-top: -7rem;
@@ -56,10 +56,10 @@ nav{
   font-size: 1.3rem;
   font-weight: bold;
   margin-top: 4rem;
-}
+} */
 
 /* HOME PAGE */
-.welcome, .aboutUs, .contactUs, .servicePage, .shopPage{
+/* .welcome, .aboutUs, .contactUs, .servicePage, .shopPage{
   font-size: 2rem;
   font-weight: bold;
   margin-top: 3rem;
@@ -122,7 +122,7 @@ nav{
 
 .gown:hover{
   transform: scale(1.3);
-}
+} */
 
 /* ABOUT PAGE */
 .about-page{

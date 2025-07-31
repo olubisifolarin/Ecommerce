@@ -26,7 +26,7 @@ const Search = () => {
         className="w-full border border-gray-300 rounded-md py-3 pl-12 pr-4 text-base outline-none focus:ring-2 focus:ring-blue-500"
       />
       <FaSearch
-        className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-xl cursor-pointer"
+        className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-xl cursor-pointer z-10"
         onClick={handleSearch}
       />
     </div>

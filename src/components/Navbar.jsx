@@ -20,7 +20,7 @@ const Navbar = () => {
         </Link>
 
         {/* Search */}
-        <div className="w-full max-w-md mx-4 hidden sm:block">
+        <div className="w-full max-w-md mx-2 sm:block h-auto min-h-0">
           <Search />
         </div>
 
