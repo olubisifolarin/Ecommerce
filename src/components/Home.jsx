@@ -12,12 +12,12 @@ const Home = () => {
       <div className="flex flex-wrap items-center justify-between px-4 py-10 md:px-12">
         {/* Text Section */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center md:text-left text-white">
             Welcome to Elegant Wears, the place where style and comfort collide to make fashion a statement!
           </h1>
-          <div className="pt-6">
-            <button className="bg-yellow-700 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded-md border border-white">
-              Shop Now
+          <div className="text-center md:text-left pt-8">
+            <button className="bg-yellow-700 hover:bg-white-700 text-white  font-semibold text-lg md:text-xl py-3 px-8 rounded-md border border-white">
+              Shop Now 
             </button>
           </div>
         </div>
