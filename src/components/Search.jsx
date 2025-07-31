@@ -16,30 +16,33 @@ const Search = () => {
   };
 
   return (
-    <div className="">
-      <div className="relative w-full max-w-md px-4 sm:px-0 mx-auto mt-6">
-        <input
-          type="text"
-          value={query}
-          placeholder="Search"
-          onChange={(e) => setQuery(e.target.value)}
-          className="w-full border border-gray-300 rounded-md py-2 pl-10 pr-4 outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <FaSearch
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 text-xl cursor-pointer"
-          onClick={handleSearch}
-        />
-      </div>
-
-      <ul className="mt-4 bg-white shadow-md rounded-md overflow-hidden">
-        {results.map((result) => (
-          <li key={result.id} className="px-4 py-2 border-b last:border-none hover:bg-gray-50 text-sm sm:text-base">
-            {result.name}
-          </li>
-        ))}
-      </ul>
+  <div className="px-4 sm:px-0">
+    <div className="relative w-full max-w-md mx-auto mt-6">
+      <input
+        type="text"
+        value={query}
+        placeholder="Search"
+        onChange={(e) => setQuery(e.target.value)}
+        className="w-full border border-gray-300 rounded-md py-3 pl-12 pr-4 text-base outline-none focus:ring-2 focus:ring-blue-500"
+      />
+      <FaSearch
+        className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-xl cursor-pointer"
+        onClick={handleSearch}
+      />
     </div>
-  );
+
+    <ul className="mt-4 bg-white shadow-md rounded-md overflow-hidden max-w-md mx-auto">
+      {results.map((result) => (
+        <li
+          key={result.id}
+          className="px-4 py-2 border-b last:border-none hover:bg-gray-50 text-sm sm:text-base"
+        >
+          {result.name}
+        </li>
+      ))}
+    </ul>
+  </div>
+);
 };
 
 export default Search;
