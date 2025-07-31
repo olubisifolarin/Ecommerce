@@ -16,7 +16,7 @@ const Navbar = () => {
     }
     return(
         <>
-        <nav className="nav">
+        <nav className="flex">
             <Link to="/" className="nav-logo" onClick={closeMenu}>
                 <img src={elegant} alt="Elegant Logo" className="logo"/>
             </Link>

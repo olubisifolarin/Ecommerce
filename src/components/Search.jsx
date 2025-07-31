@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IoMdSearch } from "react-icons/io";
+import { FaSearch } from "react-icons/fa";
 
 
 const Search = () => {
@@ -17,12 +17,12 @@ const Search = () => {
       };
 
     return(
-        <div className="searchBar mb-12">
+        <div className="relative w-full max-w-md mb-12">
             <input type="text" value={query} placeholder="Search" 
-            className="inputField"
+            className="w-full border border-gray-300 rounded-md py-2 pl-10 pr-4 outline-none"
             onChange={(e) => setQuery(e.target.value)}
              />
-            <IoMdSearch className="searchIcon" onClick={handleSearch}/>
+            <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 text-xl cursor-pointer" onClick={handleSearch}/>
            <ul>
                 {results.map((result) => (
                     <li key={result.id}>{result.name}</li>
