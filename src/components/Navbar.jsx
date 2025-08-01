@@ -13,10 +13,11 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-start justify-between p-4 z-50">
+      <nav className="flex items-start justify-between">
         {/* Logo */}
         <Link to="/" onClick={closeMenu}>
-          <img src={elegant} alt="Elegant Logo" className="w-32 h-auto -mt-8" />
+          <img src={elegant} alt="Elegant Logo" className="w-32 sm:w-40 md:w-48 lg:w-56 h-auto mx-auto
+             mt-0 sm:mt-[-8px] md:mt-[-48px] lg:mt-[-64px"/>
         </Link>
 
         {/* Search */}
@@ -25,14 +26,14 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger Icon (always visible) */}
-        <div onClick={handleClick} className="text-6xl text-white cursor-pointer z-50">
+        <div onClick={handleClick} className="text-6xl text-white cursor-pointer z-50 mt-4 sm:mt-0">
           {open ? <FiX /> : <RiMenu4Line />}
         </div>
       </nav>
 
       {/* Menu Overlay (for all screen sizes) */}
       <ul
-        className={`fixed top-0 left-0 h-full w-3/4 bg-white shadow-md flex flex-col pt-28 pl-8 transition-transform duration-500 ease-in-out z-40 ${
+        className={`fixed top-0 left-0 h-full w-1/2 bg-white shadow-md flex flex-col pt-28 pl-8 transition-transform duration-500 ease-in-out z-40 ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
