@@ -17,7 +17,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" onClick={closeMenu}>
           <img src={elegant} alt="Elegant Logo" className="w-32 sm:w-40 md:w-48 lg:w-56 h-auto mx-auto
-             mt-0 sm:mt-[-8px] md:mt-[-48px] lg:mt-[-64px"/>
+             mt-0 sm:mt-[-8px] md:mt-[-48px] lg:mt-[-58px"/>
         </Link>
 
         {/* Search */}

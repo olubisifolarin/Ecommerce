@@ -23,15 +23,15 @@ const Home = () => {
         </div>
 
         {/* Image Section */}
-        <div className="w-full md:w-1/2 relative flex justify-center items-center">
+        <div className="w-full md:w-1/2 flex justify-center items-center">
           <img src={imgbg} alt="home background" className="w-full max-w-md object-contain" />
 
-          <div className="absolute top-0 left-0 flex flex-col items-start gap-4 p-4">
+          <div className="top-0 left-0 flex flex-col items-start gap-4 p-4">
             <img src={boxer} alt="boxer" className="w-20 md:w-28 mt-10" />
             <img src={pinkbag} alt="pink bag" className="w-16 md:w-24" />
           </div>
 
-          <img src={crocs} alt="crocs" className="absolute bottom-0 right-4 w-24 md:w-32" />
+          <img src={crocs} alt="crocs" className="bottom-0 right-4 w-24 md:w-32" />
         </div>
       </div>
 
