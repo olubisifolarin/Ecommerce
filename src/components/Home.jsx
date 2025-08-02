@@ -23,11 +23,12 @@ const Home = () => {
         </div>
 
         {/* Image Section */}
-        <div className="w-full md:w-1/2 grid grid-cols-2 gap-4 justify-items-center items-center">
-            <img src={imgbg} alt="home background" className="w-40 h-auto object-contain" />
-            <img src={boxer} alt="boxer" className="w-32 h-auto object-contain" />
-            <img src={pinkbag} alt="pink bag" className="w-24 h-auto object-contain" />
-            <img src={crocs} alt="crocs" className="w-32 h-auto object-contain" />
+        <div className="w-full md:w-1/2 grid grid-cols-2 ">
+            {/* <img src={boxer} alt="boxer" className="object-contain" />  */}
+            <img src={pinkbag} alt="pink bag" className="object-contain" />
+            <img src={imgbg} alt="home background" className="object-contain" />
+            {/* <img src={crocs} alt="crocs" className="object-contain" /> */}
+           
         </div>
 
       </div>
