@@ -12,31 +12,25 @@ const Services = () => {
         Why People Choose Us
       </h1>
 
-    <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
-        <Cards 
-        className="flex-1 min-w-[250px] max-w-[200px]"
-        icon={<GiCheckMark className="card-icon" />} 
-        title="Quality Products" 
+      <div className="flex flex-col sm:flex-row w-full lg:flex-row w-full flex-wrap justify-center  gap-6 px-4">
+        <Cards className=""
+          icon={<GiCheckMark className="card-icon" />} 
+          title="Quality Products" 
         />
         <Cards 
-        className="flex-1 min-w-[250px] max-w-[200px]"
-        icon={<MdLocalShipping className="card-icon" />} 
-        title="Free Shipping" 
+          icon={<MdLocalShipping className="card-icon" />} 
+          title="Free Shipping" 
         />
         <Cards 
-        className="flex-1 min-w-[250px] max-w-[200px]"
-        icon={<IoMdReturnLeft className="card-icon" />} 
-        title="14-day Return" 
+          icon={<IoMdReturnLeft className="card-icon" />} 
+          title="14-day Return" 
         />
         <Cards 
-        className="flex-1 min-w-[250px] max-w-[200px]"
-        icon={<IoCallSharp className="card-icon" />} 
-        title="24/7 Support" 
+          icon={<IoCallSharp className="card-icon" />} 
+          title="24/7 Support" 
         />
+      </div>
     </div>
-    
-</div>
-
   );
 };
 
