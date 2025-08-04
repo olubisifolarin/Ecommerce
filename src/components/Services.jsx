@@ -12,8 +12,8 @@ const Services = () => {
         Why People Choose Us
       </h1>
 
-      <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6">
-        <Cards 
+      <div className="flex flex-col sm:flex-row w-full md:flex-row w-full lg:flex-row w-full flex-wrap justify-center  gap-6 px-4">
+        <Cards className=""
           icon={<GiCheckMark className="card-icon" />} 
           title="Quality Products" 
         />
